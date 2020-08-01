@@ -17,7 +17,7 @@ public class Figures {
 	
     	//Request user input for size
     	
-        System.out.print ("Renter the size of the figure: ");
+        System.out.print ("Enter the size of the figure: ");
         
         int n = scn.nextInt ();
         
@@ -27,7 +27,7 @@ public class Figures {
         	
             System.out.println ("\nInvalid figure size - must be an odd number\n");
             
-            System.out.print ("What size fugure would you like? (odd numbers only): ");
+            System.out.print ("Renter the size of the figure: ");
             
             n = scn.nextInt();
             
